@@ -1,15 +1,14 @@
 /*
-Date: 02 July 2022
-Aim: To demonstrate 'enum' with Month name
+Date: 06 July 2022
+Aim: To demonstrate enum
 Author: Omprakash
 */
 #include<stdio.h>
 int main()
 {
-    enum month{JAN=1,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC};
-    enum month firstmon=JAN;
-    enum month lastmon =DEC;
-    printf("1st month number = %d\n",firstmon);
-    printf("12th month number = %d\n",lastmon);
+enum planets {MERCURY=1, VENUS, EARTH, MARS,JUPITER, SATURN, URANUS, NEPTUE, PLUTO};
+enum planets firstplanet = MERCURY;
+enum planets secondplanet = VENUS;
+printf("firstplanet: %d\n secondplanet: %d",firstplanet,secondplanet);
 return 0;
 }
