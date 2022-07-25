@@ -1,15 +1,15 @@
 /*
-Date: 02 July 2022
-Aim: To demonstrate 'enum' with Month name
+Date: 25 july 2022
+Aim: to demonstrate enum with english alphabet
 Author: Omprakash
 */
 #include<stdio.h>
 int main()
 {
-    enum month{JAN=1,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC};
-    enum month firstmon=JAN;
-    enum month lastmon =DEC;
-    printf("1st month number = %d\n",firstmon);
-    printf("12th month number = %d\n",lastmon);
+   enum alphabet {A=1, B, C, D, E, F};
+   enum alphabet Firstconsonant = B;
+   enum alphabet Firstvowel= A;
+   printf("value of first consonant = %d\n",Firstconsonant );
+   printf("value of first vowel = %d",Firstvowel );
 return 0;
 }
